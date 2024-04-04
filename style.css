@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+nav {
+    background-color: #444444;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    width: 8em;
+
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #Efefef;
+    font-size: 17px;
+    font-weight: 500;
+
+
+
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+i {
+    display: inline-block;
+    margin-left: 11px;
+
+
+
+
+}
+
+.container {
+    padding-top: 37vh;
+    text-align: center;
+    background-image: url("img/خلفية.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+
+
+}
+
+.container h1 {
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+}
+
+.container h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.container form {
+    background-color: white;
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    padding: 15px 10px;
+    border: 1px solid #589147;
+}
+
+form input[type="text"] {
+    width: 90%;
+    border: none;
+    padding: 10px;
+    direction: rtl;
+
+}
+
+form button {
+    padding: 15px 20px;
+    background-color: #45962C;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+form input[type="text"]:focus {
+    outline: none;
+
+
+}
+
+
+
+
+.fsec h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+
+
+.services-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 200px;
+    position: relative;
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+.services-container div img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(45%);
+}
+
+.services-container div h3 {
+    font-size: 2em;
+    color: #f0f0f0;
+
+}
+
+.services-container div:hover {
+    transform: scale(1.1);
+}
+
+.nd-sec div.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nd-sec {
+    padding: 0 30px;
+    margin-top: 70px;
+
+
+}
+
+.nd-sec div.info button {
+    display: inline-block;
+    padding: 7px 8px;
+    font-size: 1.4em;
+    background-color: white;
+    border: 1px solid #45962C;
+    color: #45962C;
+    border-color: #45962C;
+    font-weight: 300;
+    transition: all 0.5s;
+}
+
+
+.nd-sec div.info button:hover {
+    background-color: #45962C;
+    color: white;
+    cursor: pointer;
+}
+
+.nd-sec div.info h2 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.nd-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid rgb(27, 26, 26);
+    width: 300px;
+    height: 240px;
+    text-align: right;
+    box-shadow: 7px 8px 19px black;
+    margin: 20px;
+    transition: all 0.6s;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-info {
+    margin-top: 15px;
+    padding: 0 10px;
+}
+
+.card-info h3 {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    font-weight: 200;
+
+}
+
+.card-info h3:hover {
+    color: #45962C;
+    cursor: pointer;
+}
+
+.card-info p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: 200;
+
+
+}
+
+
+.rate i {
+    display: inline-block;
+    color: orange;
+    font-size: 1em;
+    margin-left: 5px;
+
+}
+
+.card-info strong {
+    display: inline-block;
+    margin: 17px 0;
+    font-size: 1.4em;
+    font-weight: 200;
+    word-spacing: 3px;
+}
+
+.thd {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    flex-direction: row-reverse;
+    text-align: center;
+
+}
+
+.thd h3 {
+    margin-bottom: 10px;
+}
+
+
+.thd ol li {
+    list-style-type: none;
+    margin-bottom: 15px;
+    color: #45962C;
+
+
+
+}
+
+.thd div {
+    padding: 15px;
+
+
+}
+
+.follow i {
+    font-size: 3em;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-square-twitter {
+    color: #55ACEE;
+}
+
+.four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 25px 40px;
+    background-color: #F1F1F1;
+
+
+}
+
+
+.right-side a {
+    display: inline-block;
+    padding-right: 15px;
+    margin-left: 30px;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+
+.left-side p {
+    padding-left: 150px;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+footer img {
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+
+.footer-h5 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+footer .footer-h5 div {
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer .footer-h5 div h5 {
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+
+footer .footer-h5 div p {
+    font-size: 15px;
+    font-weight: 200;
+
+
+}
